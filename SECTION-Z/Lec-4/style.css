@@ -1,0 +1,17 @@
+/* div ul p{
+    color: red;
+    background-color: aqua;
+} */
+
+/* div > p{
+    color: red;
+    background-color: aqua;
+} */
+
+/* h1 + li {
+    color: green;
+} */
+
+h1 ~ li {
+    color: red;
+}

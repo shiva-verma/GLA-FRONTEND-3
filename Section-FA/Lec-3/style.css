@@ -1,0 +1,23 @@
+/* * {
+    color: red;
+    background-color: black;
+}
+p, h1, h3{
+ background-color: white;
+ font-size: 20px;
+}
+.container {
+    background-color: white;
+} */
+
+/* div p{
+    color: green;
+} */
+
+/* div > p{
+    background-color: aqua;
+    color: brown;
+} */
+ h1 ~ li {
+    color: red;
+ }

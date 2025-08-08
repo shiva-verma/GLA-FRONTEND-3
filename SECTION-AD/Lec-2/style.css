@@ -1,0 +1,33 @@
+/* #p1{
+    font-size: 20px;
+}
+.h1 {
+    background-color: green;
+    font-size: 40px;
+    font-weight: 700;
+} */
+
+/* h1, p{
+    background-color: red;
+    color: white;
+} */
+
+/* * {
+  color: white;
+  background: black;
+} */
+
+/* div ul p {
+    color: red;
+    background-color: lightgreen;
+} */
+/* 
+div > p {
+    color: red;
+    background-color: lightgreen;
+} */
+
+h1 ~ li {
+     color: blue;
+     background: lightgray;
+}

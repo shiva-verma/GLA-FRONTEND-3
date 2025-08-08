@@ -1,0 +1,17 @@
+/* li > p{
+    color: blue;
+}
+
+li ul li p {
+    background-color: aqua;
+} */
+
+/* h1 + li {
+    background-color: black;
+    color: white;
+} */
+
+h1 ~ li {
+    background-color: lightgreen;
+    color: coral;
+}

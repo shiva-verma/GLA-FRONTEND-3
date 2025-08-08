@@ -1,0 +1,50 @@
+/* button{
+     border: none;
+     padding: 10px 20px;
+     background: linear-gradient(rgb(138, 138, 219), rgb(226, 183, 104));
+     border-radius: 40px;
+}
+button:hover{
+    background: black;
+    color: white;
+    border-radius: 0px;
+}
+button:active{
+    background:rgb(206, 198, 198);
+    border: 1px solid red;
+}
+a:link{
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    color: green;
+}
+li:nth-child(3n + 3){
+    color: red;
+    background-color: rgb(219, 207, 207);
+} */
+
+/* p::first-line{
+    color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+ /* span{
+    color: red;
+ } */
+
+ h1::before{
+    content: "Hello ";
+    color: green;
+    font-size: 50px;
+ }
+ h1::after{
+    content: " * ";
+    color: green;
+    font-size: 50px;
+ }
+ p::selection{
+    color: green;
+    background: cornsilk;
+ }

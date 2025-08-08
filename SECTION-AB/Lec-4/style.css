@@ -1,0 +1,25 @@
+.inp{
+    border: 1px solid green;
+    height: 20px;
+    width: 70%;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.container{
+    border: 1px solid gray;
+    height: 90vh;
+    width: 50%;
+    margin-left:220px;
+    padding: 15px;
+    padding-top: 50px;
+    background: rgba(196, 194, 194, 0.309);
+    border-radius: 40px;
+}
+#email{
+   margin-left: 50px;
+}
+#age{
+
+}

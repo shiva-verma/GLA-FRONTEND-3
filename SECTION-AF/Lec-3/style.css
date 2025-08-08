@@ -1,0 +1,25 @@
+/* .h1 {
+    font-size: 40px;
+    color: red;
+    background-color: aqua;
+}
+#p1 {
+    font-size: 20px;
+} */
+
+/* h1, p {
+    background-color: aqua;
+} */
+
+/* * {
+    color: white;
+    background: black;
+} */
+
+/* div ul li p {
+    color: red;
+} */
+
+div ul > p{
+    color: red;
+}

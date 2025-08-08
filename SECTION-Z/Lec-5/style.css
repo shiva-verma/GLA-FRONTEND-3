@@ -1,0 +1,58 @@
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: linear-gradient(rgb(183, 183, 225), rgb(217, 161, 161), rgb(166, 225, 166));
+}
+button:hover{
+    border-radius: 0%;
+    background: black;
+    color: white;
+}
+button:active{
+    background-color: lightgray;
+    color: brown;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+/* button:visited{
+    color: green;
+    background-color: turquoise;
+}
+button:link{
+    text-decoration: none;
+    font-size: 30px;
+} */
+
+/* li:nth-child(3n + 3){
+    color:lightblue;
+    background-color: lightgray;
+} */
+/* li:nth-child(2n + 2){
+    color:lightgreen;
+    background-color: lightblue;
+} */
+
+/* p::first-letter {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+} */
+/* p::first-line {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+h1::before{
+    content: "Hello ";
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+p::selection{
+    color: green;
+    background-color: rgb(137, 220, 220);
+}

@@ -1,0 +1,76 @@
+/* button {
+    border: none;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: rgb(188, 188, 231)
+}
+button:hover {
+    background: black;
+    color: white;
+    transform: translate(0.2, 0.2);
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+#a{
+    margin: 50px;
+}
+
+#a:link{
+    color: green;
+}
+#a:visited{
+    background-color: blue;
+}
+#a:hover{
+    color: red;
+    background-color: green;
+}
+#a:active{
+    border-bottom: 2px solid black;
+}
+li:nth-child(5){
+    color: blue;
+    background-color: black;
+} */
+
+p::first-letter{
+    font-size: 30px;
+    /* background-color: black; */
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+
+p::first-line{
+    font-size: 30px;
+    background-color: black;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+p::selection{
+    /* font-size: 30px; */
+    background-color: black;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+
+h1::before {
+    content: 'Hello Everyone ';
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1::after {
+    /* content: 'div'; */
+    height: 5px;
+    width: 100px;
+    /* background-color: black; */
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

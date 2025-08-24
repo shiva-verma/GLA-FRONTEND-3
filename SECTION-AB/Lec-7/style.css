@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blue{
+   border: 1px solid blue;
+   height: 300px;
+   width: 300px;
+   /* padding-top: 50px; */
+   /* padding-left: 50px;
+   border-radius: 50%;
+   background-color: blue; */
+}
+.red{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    /* padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 50%;
+    background-color: red; */
+}
+.green{
+    border: 1px solid green;
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%;
+    background-color: green; */
+}

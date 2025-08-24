@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    /* width: 100vw; */
+}
+/* 
+.grandparent{
+    margin: 50px 0px 0px 50px;
+    position: relative;
+    border: 1px solid blue;
+    height: 400%;
+    width: 80%;
+
+}
+.parent{
+    margin: 50px 0px 0px 50px;
+    position: relative;
+    border: 1px solid red;
+    height: 70%;
+    width: 60%;
+
+}
+.child{
+    position: sticky;
+    top: 10px;
+    left: 100px;
+    border: 1px solid green;
+    height: 20%;
+    width: 20%;
+} */
+ img{
+    height: 70%;
+    width: 100%;
+
+ }
+ h2{
+    position: relative;
+    top: -40px;
+    left: 50%;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 10;
+ }

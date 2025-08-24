@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center;
+    justify-items: center; */
+    /* gap: 5px 10px; */
+    border: 1px solid red;
+    height: 90%;
+    width: 90%;
+}
+.child{
+    border: 1px solid green;
+    /* height: 50px;
+    width: 50px; */
+}

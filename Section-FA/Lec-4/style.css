@@ -1,0 +1,66 @@
+button {
+    border: none;
+    padding: 10px 20px;
+    background:linear-gradient(rgb(166, 166, 235), rgb(232, 126, 126));
+    border-radius: 40px;
+}
+button:hover{
+    background: black;
+    color: white;
+    border-radius: 0%;
+}
+button:active{
+    background: rgb(200, 195, 195);
+    color: green;
+    border: 2px solid red;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+  background-color: gray;
+  color: white;
+}
+a:active{
+  background-color: black;
+  color: white;
+}
+
+/* li:nth-child(3n + 3){
+    background: gray;
+    color: red;
+} */
+/* li:last-child{
+    background: gray;
+    color: red;
+} */
+ /* p::first-letter{
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+ } */
+ /* p::first-line{
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+ } */
+/* p::selection{
+    background-color: aqua;
+    color: red;
+} */
+h1::before{
+    content:"Hello ";
+    color: red;
+    font-size: 40px;
+}
+h1::after{
+    content:"*";
+    color: red;
+    font-size: 40px;
+}

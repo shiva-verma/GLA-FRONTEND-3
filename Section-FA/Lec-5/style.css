@@ -1,0 +1,30 @@
+/* body{
+    height: 100vh;
+    width: 50vw;
+}
+.parent{
+    border: 1px solid red;
+    height: 100%;
+    background-color: red;
+    font-size: 20px;
+}
+.child{
+    border: 1px solid green;
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    font-size: 3em;
+}
+
+input{
+padding:10px 30px 20px 40px;
+border: 5px sAolid green;
+border-width: 5px;
+border-style: double;
+border-color: aqua;
+border-bottom: 3px dotted green;
+border-bottom-left-radius: 40px;
+border
+margin-left: 30px;
+font-size: 20px;
+} */

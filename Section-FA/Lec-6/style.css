@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.grandparent{
+    position: fixed;
+}
+.parent{
+    /* position: absolute; */
+    border: 2px solid red;
+    height: 70%;
+    width: 50%;
+}
+.child{
+    position: relative;
+    border: 2px solid green;
+    height: 20%;
+    width: 20%;
+    /* top: 40px;
+    left: 50px; */
+}

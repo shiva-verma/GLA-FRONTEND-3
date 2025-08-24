@@ -1,0 +1,38 @@
+/* body{
+    height: 50vh;
+    width: 50vw;
+}
+.parent{
+  border: 2px solid red;
+  height: 300px;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  font-size: 20px;
+}
+.child{
+  border: 2px solid green;
+  height: 100%;
+  width: 50%;
+  width: 50%;
+  background-color: green;
+  font-size: 3em;
+} */
+
+.p1{
+    border: 1px solid red;
+}
+.p2{
+    border-width: 3px;
+    border-style: double;
+    border-color: orange;
+
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+    /* border: 1px solid green; */
+    padding: 10px 20px 30px 40px;
+    padding-top: 50px;
+    margin: 20px;
+    margin-top: 80px;
+}

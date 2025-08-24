@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+img{
+    height: 100px;
+    width:100px;
+}
+.img{
+    width: 30%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.link{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}

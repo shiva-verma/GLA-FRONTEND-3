@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    border: 3px solid green;
+    height: 90%;
+    width: 100%;
+}
+.child{
+    /* margin: 20px; */
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+}

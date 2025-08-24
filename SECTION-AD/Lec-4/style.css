@@ -1,0 +1,20 @@
+.p1{
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+.p2{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: green; */
+
+    border: 3px double orange;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom: 3px double green;
+    border-top: 3px double red;
+    padding: 40px 30px 20px 10px;
+    margin: 30px 0px 0px 10px;
+    font-size: 70px;
+
+}

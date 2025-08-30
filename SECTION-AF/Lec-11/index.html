@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar System</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: black;
+    }
+    .sun {
+      width: 100px;
+      height: 100px;
+      background: gold;
+      border-radius: 50%;
+      position: absolute;
+      box-shadow: 0 0 40px yellow, 0 0 80px orange;
+    }
+    /* Orbit paths (invisible, but for positioning planets) */
+    .orbit {
+      position: absolute;
+      border: 1px dashed rgba(255,255,255,0.2);
+      border-radius: 50%;
+      animation: rotate 10s linear infinite;
+    }
+    .orbit1 {
+      width: 200px;
+      height: 200px;
+      animation-duration: 8s;
+    }
+    .orbit2 {
+      width: 300px;
+      height: 300px;
+      animation-duration: 15s;
+    }
+    /* Planets */
+    .planet {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) translateX(100px);
+    }
+    .planet1 {
+      background: dodgerblue;
+    }
+    .planet2 {
+      background: crimson;
+      transform: translate(-50%, -50%) translateX(150px);
+    }
+
+    /* Rotation animation */
+    @keyframes rotate {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="sun"></div>
+
+  <div class="orbit orbit1">
+    <div class="planet planet1"></div>
+  </div>
+
+  <div class="orbit orbit2">
+    <div class="planet planet2"></div>
+  </div>
+</body>
+</html>

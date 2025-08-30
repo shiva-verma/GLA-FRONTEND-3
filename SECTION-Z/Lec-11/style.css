@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+    border: 2px solid red;
+}
+.child{
+    border: 2px solid green;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    border: 2px solid red;
+    height: 90%;
+    width: 80%;
+}
+.child{
+    /* transform: translate(200px, 300px); */
+    /* transform: scaleX(4);
+    transform: scaleY(3); */
+    /* transform: scaleZ(4); */
+    /* transform: rotate(-40deg); */
+    /* transform: rotateZ(50deg); */
+    /* transform: skew(40deg, 40deg); */
+    /* transform: matrix(1, 2, -1, 1, 80, 80); */
+    border: 2px solid green;
+    height: 20%;
+    width: 20%;
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

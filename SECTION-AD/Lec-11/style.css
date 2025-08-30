@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100vw;
+}
+.ball{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: crimson;
+    border-radius: 50%;
+    animation: bounce 10s ease-in-out 1;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+        border-radius: 0%;
+    }
+    10%{
+        transform: translateY(-400px);
+        border-radius: 50%;
+    }
+    20%{
+        transform: translateY(0px);
+        border-radius: 0%;
+    }
+    30%{
+        transform: translateY(-300px);
+        border-radius: 50%;
+    }
+    40%{
+        transform: translateY(0px);
+        border-radius: 0%;
+    }
+    50%{
+        transform: translateY(-200px);
+        border-radius: 50%;
+    }
+    60%{
+        transform: translateY(0px);
+        border-radius: 0%;
+    }
+    70%{
+        transform: translateY(-100px);
+        border-radius: 50%;
+    }
+    80%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        /* background-color: ; */
+    }
+    90%{
+        transform: translateY(-50px);
+        border-radius: 50%;
+    }
+    100%{
+        transform: translateY(0px);
+        border-radius: 0%;
+    }
+}
+
+/* animation-duration: 10s;
+animation-timing-function: ease-in-out;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: none;
+animation-play-state: running;
+animation-name: bounce;
+animation-timeline: auto;
+animation-range-start: normal;
+animation-range-end: normal; */

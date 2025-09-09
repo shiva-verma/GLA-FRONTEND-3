@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.system{
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+.sun{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: -30px 0 0 -30px;
+    background: radial-gradient(orange,red);
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 30px 10px rgb(212, 104, 32);
+}
+.orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgb(125, 121, 121);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate linear infinite;
+}
+.orbit.planet1{
+    width: 200px;
+    height: 200px;
+    animation-duration: 8s;
+}
+.orbit.planet2{
+    width: 300px;
+    height: 300px;
+    animation-duration: 15s;
+}
+
+.planet.planet1{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+.planet.planet2{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(64, 255, 0);
+}
+.planet{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

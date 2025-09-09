@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 90%;
+    width: 90%;
+} */
+/* .box{ */
+    /* transform: translateZ(200px); */
+    /* transform: scale(3, 2); */
+    /* transform: rotate(-45deg); 2d rotate */
+    /* transform: rotateX(120deg); */
+    /* transform: rotateY(50deg); */
+    /* transform: rotateZ(50deg); */
+    /* transform: skewX(40deg); */
+    /* transform: rotate(50deg);
+    transform: scale(3,3); */
+    /* transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+} */
+ .ball{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: crimson;
+    position: relative;
+    /* animation: bounce 10s ease-in-out infinite; */
+    animation-name: bounce;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(1,-0.01, 0.07, 1.34);
+    animation-iteration-count: 2;
+    /* animation-direction: reverse; */
+    /* animation-fill-mode: ; */
+ }
+
+ @keyframes bounce {
+    0%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    10%{
+        transform: translateY(-350px);
+        border-radius: 50%;
+        background-color: red;
+    }
+    20%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    30%{
+        transform: translateY(-250px);
+        border-radius: 50%;
+        background-color: red;
+    }
+    40%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    50%{
+        transform: translateY(-170px);
+        border-radius: 50%;
+        background-color: red;
+    }
+    60%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    70%{
+        transform: translateY(-100px);
+        border-radius: 50%;
+        background-color: red;
+    }
+    80%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    90%{
+        transform: translateY(-50px);
+        border-radius: 50%;
+        background-color: red;
+    }
+    100%{
+        transform: translateY(0px);
+        border-radius: 0%;
+        background-color: aqua;
+    }
+ }

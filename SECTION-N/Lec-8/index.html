@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Registration</h1>
+        <form>
+            <div>
+                <label for="name">Full Name : </label>
+                <input id="name" type="text" placeholder="Enter your name...">
+            </div><br>
+            <div>
+                <label for="age">Age : </label>
+                <input id="age" type="number" placeholder="Enter your age...">
+            </div><br>
+            <div>
+                <label for="email">Email : </label>
+                <input id="email" type="email" placeholder="Enter your email...">
+            </div><br>
+            <div>
+                <label for="password">password : </label>
+                <input id="password" type="password" placeholder="Enter your password...">
+            </div>
+            <div>
+                <label for="bio">Bio : </label>
+                <textarea id="bio" type="text" placeholder="Enter your Bio..."></textarea>
+            </div>
+            <div>
+                <label for="profile">Profile : </label>
+                <input id="profile" type="file" placeholder="Enter your Bio..."/>
+            </div>
+            <div>
+                <h3>Gender</h3>
+                <select id="">
+                    <option>Male</option>
+                    <option selected>Female</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <div>
+                <h3>Usertype</h3>
+                <label for="buyer">Buyer : </label>
+                <input id="buyer" type="radio" name="usertype">
+                <label for="seller">Seller : </label>
+                <input id="seller" type="radio" name="usertype">
+            </div>
+            <div>
+                <h3>Music Genera</h3>
+                <label for="Hindi">Hindi : </label>
+                <input id="Hindi" type="checkbox" name="music">
+                <label for="English">English : </label>
+                <input id="English" type="checkbox" name="music">
+                <label for="Punjabi">Punjabi : </label>
+                <input id="Punjabi" type="checkbox" name="music">
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>

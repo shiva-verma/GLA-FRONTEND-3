@@ -22,8 +22,8 @@ person.status = "single"
 
 console.log(person)
 
-let res = Object.hasOwn(person, "Addressing")
-console.log(res);
+let res1 = Object.hasOwn(person, "Addressing")
+console.log(res1);
 
 //loop
 
@@ -65,4 +65,44 @@ const student = [
         }
     }
 ]
+
+function calculateAvg(students){
+    const res = {
+        math:0,
+        science:0,
+        english:0
+    }
+
+    for(let value of students){
+        res.english += value.scores.english;
+        res.math += value.scores.math;
+        res.science += value.scores.science;
+    }
+    return res;
+}
+
+let result = calculateAvg(students)
+console.log("English" + " ----> " + result.english/3);
+console.log("Math" + " ----> " + result.math/3);
+console.log("Science" + " ----> " + result.science/3);
+
+
+function calculatePercentage(students){
+    let percentage = {
+        Alice:0,
+        Bob:0,
+        Charlie:0
+    }
+    for(let value of students){
+        let getScore = value.scores.english + value.scores.math + value.scores.science;
+
+        let per = (getScore/300)*100;
+        percentage[value.name] = per;
+    }
+    return percentage;
+}
+
+let res = calculatePercentage(students);
+console.log(res);
+
 

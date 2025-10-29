@@ -19,7 +19,8 @@ setTimeout(() => {
         console.log("C");
     }, 1000);
 }, 2000);
-
+/// at t = 0 A G 
+/// at t = 1 D B E C D E F
 let id = setInterval(() => {
     console.log("D");
     setTimeout(() => {
@@ -33,6 +34,12 @@ setTimeout(() => {
 }, 4000);
 
 console.log("G");
+
+
+
+
+
+// DOM manipulation
 
 
 

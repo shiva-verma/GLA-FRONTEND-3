@@ -13,7 +13,7 @@ body{
 .container{
     background-color: rgb(197, 195, 195);
     width: 400px;
-    height: 400px;
+    height: auto;
     border-radius: 40px;
     /* box-shadow: 5px 0 0 5px rgb(121, 120, 120, 0.2); */
 }
@@ -37,7 +37,24 @@ ul{
     list-style: none;
     padding: 10px 0px;
 }
-li{
-    padding: 10px 0px;
-    color: aqua;
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    color: balck;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.del-btn{
+    padding: 5px 20px;
+    color: black;
+    background-color: rgb(238, 123, 123);
+}
+.edit-btn{
+    padding: 5px 20px;
+    color: black;
+    background-color: rgb(173, 238, 123);
 }

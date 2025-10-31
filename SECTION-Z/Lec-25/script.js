@@ -13,10 +13,23 @@ function addTodoTask(){
    const delBtn = document.createElement("button");
    delBtn.innerText = "Delete";
    delBtn.classList.add("delBtn")
-
+   
    const editBtn = document.createElement("button");
    editBtn.innerText = "Edit";
    editBtn.classList.add("editBtn")
+
+   function updateItem(){
+      if(editBtn.innerText === "Edit"){
+         editBtn.innerText = "Save"
+         li.contentEditable = true;
+         li.focus();
+      }else{
+         editBtn.innerText = "Edit"
+         li.contentEditable = false;
+      }
+   }
+
+   editBtn.addEventListener("click", updateItem);
 
    function removeItem(){
         list.removeChild(li);

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(208, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(157, 151, 151);
+}
+#title{
+    padding: 5% 0 5% 25%;
+    color: red;
+}
+#inp{
+    margin-left: 25%;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+#btn{
+    padding: 5px 10px;
+    background-color: rgb(197, 238, 116);
+    border-radius: 10px;
+}
+#list{
+  list-style: none;
+  margin: 5% 0 5% 25%;
+  
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+    margin: 10px 0 10px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: rgb(123, 115, 115);
+}
+.delBtn{
+    padding: 5px 10px;
+    color: black;
+    background-color: rgb(241, 94, 94);
+    border: none;
+    border-radius: 4px;
+}
+.editBtn{
+    padding: 5px 10px;
+    color: black;
+    width: 50px;
+    background-color: rgb(187, 241, 94);
+    border: none;
+    border-radius: 4px;
+}

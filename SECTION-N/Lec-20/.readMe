@@ -1,0 +1,19 @@
+//Implement promiseAll function
+const p1 = new Promise((resolve, reject)=>{
+    resolve("promise successfully completed")
+})
+const p2 = new Promise((resolve, reject)=>{
+    reject("promise rejected")
+})
+const p3 = new Promise((resolve, reject)=>{
+    resolve(3)
+})
+const p4 = new Promise((resolve, reject)=>{
+    resolve(4)
+})
+
+
+PrmoiseAll([p1, p2, p3, p4]).then((res)=>{
+        console.log(res) // ["promise successfully completed", 2, 3,4]
+        // promise rejected
+})

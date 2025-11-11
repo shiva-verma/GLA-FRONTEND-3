@@ -1,0 +1,22 @@
+// //react
+
+// framework
+
+// benefit
+
+// Dom manipulation -- > react automatically
+
+// SPA--> Single page application
+
+
+// components ---> component is a simple js functions which return html
+// component based framework
+
+
+// function Navbar(){
+//     return(
+//         <>
+//         <h1>Hello world</h1>
+//         <p>lorem25</p></>
+//     ) 
+// }
